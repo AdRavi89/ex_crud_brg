@@ -4,7 +4,7 @@ $pass = '';
 
 try {
     // buat koneksi dengan database
-    $koneksi = new PDO('mysql:host=localhost;dbname=ex_crud_brg2;', $user, $pass);
+    $koneksi = new PDO('mysql:host=localhost;dbname=ex_crud_brg;', $user, $pass);
     // set error mode
     $koneksi->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
